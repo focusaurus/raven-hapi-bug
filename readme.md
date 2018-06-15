@@ -58,6 +58,7 @@ time curl -v 'localhost:3000?e=1'
 * Official docker `node:8.4.0` image
 * `Linux c6b747433318 4.13.0-43-generic #48~16.04.1-Ubuntu SMP Thu May 17 12:56:46 UTC 2018 x86_64 GNU/Linux`
 * node v8.4.0
+* raven 2.4.2 and 2.6.2 (latest)
 * Also reproduced in google kubernetes engine
   * `Linux server-7559c49564-wwcwc 4.14.22+ #1 SMP Thu May 10 17:54:42 PDT 2018 x86_64 GNU/Linux`
 

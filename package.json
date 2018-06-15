@@ -1,0 +1,17 @@
+{
+  "name": "raven-hapi-bug",
+  "version": "0.0.1",
+  "main": "raven-hapi.js",
+  "engines": {
+    "node": "8.4.0"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "boom": "^5.2.0",
+    "hapi": "^13.4.1",
+    "raven": "^2.4.2"
+  },
+  "devDependencies": {}
+}

@@ -34,7 +34,7 @@ function homeHandler(request, reply) {
 
 async function setup({host = "0.0.0.0", port = 3000, logLevel = "debug"} = {}) {
   Raven.config(
-    "https://0f17987eef44476585d66ee49159c1ab:715a12db5f0644a89e6b261817d3cbf1@sentry.io/819337",
+    process.env.SENTRY_DSN,
     {sampleRate: 1}
   ).install();
   const server = new hapi.Server({

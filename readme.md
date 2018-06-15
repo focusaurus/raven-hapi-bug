@@ -28,7 +28,7 @@ curl -v 'localhost:3000?e=1'  0.01s user 0.00s system 0% cpu 5.814 total
 * Process hangs for over **5 seconds**
 
 ### Digging into root cause
-* It seems like `raven/lib/client.js:311` in the client `send` function where `stringify` is called is where chaos takes the reigns
+* It seems like in raven 2.4.2: `raven/lib/client.js:311` in the client `send` function where `stringify` is called is where chaos takes the reigns
 
 ## Same request with raven sampleRate: 0
 
